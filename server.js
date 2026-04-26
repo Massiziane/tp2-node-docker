@@ -8,7 +8,7 @@ let counter = 0;
 // Home page (counter)
 app.get("/", (req, res) => {
     res.send(`
-        <h1>🔥 Click Counter</h1>
+        <h1>Welcome to Click Counter</h1>
         <p>Count: ${counter}</p>
 
         <button onclick="fetch('/click').then(() => location.reload())">
